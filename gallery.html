@@ -1,67 +1,162 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Services - T Designing</title>
+    <title>Our Gallery - T Designing & Maintenance</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <!-- Add Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppis:wght@400;600&display=swap" rel="stylesheet">
-    <!-- Add Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <img src="images/IMG_20250705_155312.jpg" alt="T Designing & Maintenance Logo">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="images/IMG-20250703-WA0086.jpg" alt="T Designing & Maintenance Logo" class="logo-img">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
     </header>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="gallery.html">Services</a>
-        <a href="about.html">About</a>
-        <a href="feedback.html">Feedback</a>
-        <a href="messenger-received.html">Messages</a>
-    </nav>
-
+    <!-- Hero Section -->
     <section class="hero">
-        <h1>What We Offer</h1>
-        <p>Browse through our custom-built furniture and installations.</p>
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <p>Browse through our custom-built furniture and installations</p>
+        </div>
     </section>
 
-    <section class="gallery">
-        <!-- Placeholder images from Unsplash -->
-        <img src="images/IMG-20250703-WA0030.jpg" alt="Kitchen Unit">
-        <p>OUR KITCHEN UNIT</p>
-        <img src="images/IMG-20250703-WA0044.jpg" alt="TV Stand">
-        <img src="images/IMG-20251016-WA0000.jpg" alt="TV Stand">
-        <p>OUR TV STAND</p>
-        <img src="images/IMG-20250703-WA0078.jpg" alt="Bathroom Vanity">
-        <p>OUR BATHROOM VANITY</p>
-        <img src="images/IMG-20250703-WA0061.jpg" alt="Wardrobe">
-        <p>OUR WARDROBE</p>
-
-        <!-- Placeholder for your real images -->
-        <img src="images/IMG-20250703-WA0059.jpg" alt="Kitchen Project 1">
-        <img src="images/IMG-20251016-WA0000.jpg" alt="TV Stand">
-        <img src="images/IMG-20250705-WA0017.jpg" alt="Bathroom Vanity 1">
-        <img src="images/IMG-20250703-WA0062.jpg" alt="Wardrobe 1">
-        <img src="images/IMG-20250703-WA0052.jpg" alt="Sliding Door Project 1">
-        <img src="images/IMG-20250705-WA0013.jpg" alt="Kitchen Project 2">
-        
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Work</h2>
+                <p>Take a look at some of our recent projects and transformations</p>
+            </div>
+            <div class="gallery">
+                <!-- Replace these with your actual images -->
+                <div>
+                    <img src="images/IMG-20250703-WA0030.jpg" alt="Kitchen Unit">
+                    <p class="image-caption">CUSTOM KITCHEN UNIT</p>
+                </div>
+                <div>
+                    <img src="images/IMG-20250703-WA0044.jpg" alt="TV Stand">
+                    <p class="image-caption">MODERN TV STAND</p>
+                </div>
+                <div>
+                    <img src="images/IMG-20250703-WA0078.jpg" alt="Bathroom Vanity">
+                    <p class="image-caption">BATHROOM VANITY</p>
+                </div>
+                <div>
+                    <img src="images/IMG-20250703-WA0061.jpg" alt="Wardrobe">
+                    <p class="image-caption">CUSTOM WARDROBE</p>
+                </div>
+                <div>
+                    <img src="images/IMG-20250703-WA0059.jpg" alt="Kitchen Project 1">
+                    <p class="image-caption">KITCHEN RENOVATION</p>
+                </div>
+                <div>
+                    <img src="images/IMG-20250703-WA0040.jpg" alt="TV Stand 1">
+                    <p class="image-caption">ENTERTAINMENT UNIT</p>
+                </div>
+                <div>
+                    <img src="images/IMG-20250705-WA0017.jpg" alt="Bathroom Vanity 1">
+                    <p class="image-caption">BATHROOM CABINETRY</p>
+                </div>
+                <div>
+                    <img src="images/IMG-20250703-WA0062.jpg" alt="Wardrobe 1">
+                    <p class="image-caption">BUILT-IN WARDROBE</p>
+                </div>
+                <div>
+                    <img src="images/IMG-20250703-WA0052.jpg" alt="Sliding Door Project 1">
+                    <p class="image-caption">SLIDING DOORS</p>
+                </div>
+                <div>
+                    <img src="images/IMG-20250705-WA0013.jpg" alt="Kitchen Project 2">
+                    <p class="image-caption">MINIBAR</p>
+                </div>
+                <div>
+                    <img src="images/IMG-20251016-WA0000.jpg" alt="TV Stand 2">
+                    <p class="image-caption">TV STAND</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-        <footer>
-        <div class="contact-info">
-            <p><i class="fas fa-phone"></i> +27 78 665 6784</p>
-            <p><i class="fas fa-envelope"></i> tdesigningmaintenance@gmail.com</p>
+    <!-- Call to Action -->
+    <section class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Ready to Transform Your Space?</h2>
+                <p>Let us bring your vision to life with our expert carpentry services</p>
+            </div>
+            <div style="text-align: center;">
+                <a href="contact.html" class="btn btn-accent">Start Your Project</a>
+            </div>
         </div>
-        <div class="social-icons">
-        <a href="https://www.instagram.com/t_designing_and_maintenance?utm_source=qr&igsh=aXRkemRvM3ZmMnNx" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.facebook.com/share/16dwtW3ZLc/"><i class="fab fa-facebook"></i></a>
-        <a href="hhttps://www.tiktok.com/@tdesigning?_t=ZS-8yBddJAkFBU&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
-        <a href="https://wa.me/27786656784" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>T Designing & Maintenance</h3>
+                    <p>Expert carpentry services specializing in custom furniture, kitchen units, and home renovations. We make your vision come to life!</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/t_designing_and_maintenance?utm_source=qr&igsh=aXRkemRvM3ZmMnNx" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.tiktok.com/@tdesigning?_t=ZS-8yBddJAkFBU&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://wa.me/27786656784" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="services.html">Kitchen Units</a></li>
+                        <li><a href="services.html">TV Stands</a></li>
+                        <li><a href="services.html">Wardrobes</a></li>
+                        <li><a href="services.html">Bathroom Vanities</a></li>
+                        <li><a href="services.html">Custom Furniture</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +27 78 665 6784</li>
+                        <li><i class="fas fa-envelope"></i> tdesigning@email.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Serving South Africa</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2015 T Designing & Maintenance. All Rights Reserved.</p>
+            </div>
         </div>
-        <p class="copyright"> ® 2015 T Designing & Maintenance</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
