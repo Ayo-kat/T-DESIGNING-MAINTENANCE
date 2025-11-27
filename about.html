@@ -1,58 +1,162 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - T Designing</title>
+    <title>About Us - T Designing & Maintenance</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <!-- Add Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppis:wght@400;600&display=swap" rel="stylesheet">
-    <!-- Add Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <img src="images/IMG_20250705_155312.jpg" alt="T Designing & Maintenance Logo">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="images/IMG-20250703-WA0086.jpg" alt="T Designing & Maintenance Logo" class="logo-img">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
     </header>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="gallery.html">Services</a>
-        <a href="about.html">About</a>
-        <a href="feedback.html">Feedback</a>
-        <a href="messenger-received.html">Messages</a>
-    </nav>
-
+    <!-- Hero Section -->
     <section class="hero">
-        <h1>About T Designing & Maintenance</h1>
-        <p>We are a dedicated carpentry company specializing in custom furniture and renovations. From kitchen units to wardrobes, our mission is to deliver functional, beautiful solutions crafted with precision and care.</p>
+        <div class="container">
+            <h2>About T Designing & Maintenance</h2>
+            <p>Learn more about our craftsmanship, values, and commitment to quality</p>
+        </div>
     </section>
 
-    <section class="hero">
-        <h2>Why Choose Us?</h2>
-        
-        <p>T Designing & Maintenance was established in 2015. We specialize in solid wood cupboards and furniture, kitchen cabinets, refurbishing existing kitchen cabinets and more!</p>
-        <p>We aim to provide the best service and take pride in our work by listening to our customers, careful planning, thoughtful execution and dedication to the projects at hand. 
-            We make <h2>your</h2> vision come to life!
-        </p>
-
-
-        <p>T Designing & Maintenance for all your woodworking needs!</p>
+    <!-- About Content -->
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Story</h3>
+                    <p>T Designing & Maintenance was established in 2015 with a passion for creating beautiful, functional spaces through expert carpentry. What started as a small workshop has grown into a trusted name in custom furniture and cabinetry.</p>
+                    
+                    <h3>Our Mission</h3>
+                    <p>To provide exceptional carpentry services that transform spaces and exceed customer expectations. We believe in the beauty of wood and the artistry of craftsmanship.</p>
+                    
+                    <h3>Why Choose Us?</h3>
+                    <p>We specialize in solid wood cupboards and furniture, kitchen cabinets, refurbishing existing kitchen cabinets and more! We aim to provide the best service and take pride in our work by listening to our customers, careful planning, thoughtful execution and dedication to the projects at hand.</p>
+                    
+                    <p>We make <strong>your</strong> vision come to life! T Designing & Maintenance for all your woodworking needs!</p>
+                    
+                    <h3>Our Values</h3>
+                    <ul>
+                        <li><strong>Quality:</strong> We use only the finest materials and techniques</li>
+                        <li><strong>Precision:</strong> Attention to detail in every project</li>
+                        <li><strong>Innovation:</strong> Creative solutions for unique spaces</li>
+                        <li><strong>Reliability:</strong> Consistent delivery on our promises</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Our workshop">
+                </div>
+            </div>
+        </div>
     </section>
 
+    <!-- Process Section -->
+    <section class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Process</h2>
+                <p>How we bring your vision to life</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Consultation</h3>
+                    <p>We begin by understanding your needs, preferences, and vision for the project.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-pencil-ruler"></i>
+                    </div>
+                    <h3>Design</h3>
+                    <p>We create detailed designs and plans that bring your vision to paper.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hammer"></i>
+                    </div>
+                    <h3>Craftsmanship</h3>
+                    <p>Our skilled artisans bring the design to life with precision and care.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Delivery</h3>
+                    <p>We install the finished product and ensure your complete satisfaction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <div class="contact-info">
-            <p><i class="fas fa-phone"></i> +27 78 665 6784</p>
-            <p><i class="fas fa-envelope"></i> tdesigningmaintenance@gmail.com</p>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>T Designing & Maintenance</h3>
+                    <p>Expert carpentry services specializing in custom furniture, kitchen units, and home renovations. We make your vision come to life!</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/t_designing_and_maintenance?utm_source=qr&igsh=aXRkemRvM3ZmMnNx" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.tiktok.com/@tdesigning?_t=ZS-8yBddJAkFBU&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://wa.me/27786656784" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="services.html">Kitchen Units</a></li>
+                        <li><a href="services.html">TV Stands</a></li>
+                        <li><a href="services.html">Wardrobes</a></li>
+                        <li><a href="services.html">Bathroom Vanities</a></li>
+                        <li><a href="services.html">Custom Furniture</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +27 78 665 6784</li>
+                        <li><i class="fas fa-envelope"></i> tdesigning@email.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Serving South Africa</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2015 T Designing & Maintenance. All Rights Reserved.</p>
+            </div>
         </div>
-        <div class="social-icons">
-        <a href="https://www.instagram.com/t_designing_and_maintenance?utm_source=qr&igsh=aXRkemRvM3ZmMnNx" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.facebook.com/share/16dwtW3ZLc/"><i class="fab fa-facebook"></i></a>
-        <a href="hhttps://www.tiktok.com/@tdesigning?_t=ZS-8yBddJAkFBU&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
-        <a href="https://wa.me/27786656784" target="_blank"><i class="fab fa-whatsapp"></i></a>
-        </div>
-        <p class="copyright"> ® 2015 T Designing & Maintenance</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
